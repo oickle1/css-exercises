@@ -15,6 +15,9 @@
     font-weight: bold;
 }
 
+/* the class tag below captures multiple font size
+    changes based on the requirements in README.md*/
+
 .font-size-change{
     font-size: 24px;
 }
