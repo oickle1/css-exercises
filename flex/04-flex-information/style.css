@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* all text on page is centered */
+  text-align: center;
 }
 
 img {
@@ -10,6 +12,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* added margin between title and other page content */
+  margin-bottom: 40px;
 }
 
 /* do not edit this footer */
@@ -24,3 +28,16 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* centers content based on size of page, gap of 80px between each element */
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+/* squeeze the content of a picture and text into 200px */
+.unit {
+  max-width: 200px;
+}
+
